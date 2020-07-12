@@ -21,7 +21,7 @@ class App extends BaseConfig
 	| environments.
 	|
 	*/
-	public $baseURL = 'http://app.wempy.xyz';
+	public $baseURL = 'https://app.wempy.xyz';
 
 	/*
 	|--------------------------------------------------------------------------
