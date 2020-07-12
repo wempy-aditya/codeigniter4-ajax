@@ -14,7 +14,7 @@
                 for(i=0; i<data.length; i++){
                     html += '<div class="col-md-3 mt-3">'+
                             '<div class="card">'+
-                            '<img src="http://localhost/ci4_ajax/public/folder_upload/'+data[i].gambar+'"class="card-img-top" alt="gambar">'+
+                            '<img src="<?= base_url('folder_upload/'); ?>'+data[i].gambar+'"class="card-img-top" alt="gambar">'+
                             '<div class="card-body">'+ 
                             '<h5 class="card-title">' + data[i].judul + '</h5>'+
                             '<p class="card-text">' + data[i].isi + '</p>'+
