@@ -19,8 +19,8 @@
                             '<h5 class="card-title">' + data[i].judul + '</h5>'+
                             '<p class="card-text">' + data[i].isi + '</p>'+
                             '<p class="card-text"><b>Like : </b>' + data[i].atas + '</p>'+
-                            '<p class="card-text"><b>Like : </b>' + data[i].bawah + '</p>'+
-                            '<button onclick="like('+data[i].id+')" class="btn btn-primary">Like</button>'+
+                            '<p class="card-text"><b>Dislike : </b>' + data[i].bawah + '</p>'+
+                            '<button onclick="like('+data[i].id+')" class="btn btn-primary mr-3">Like</button>'+
                             '<button onclick="dislike('+data[i].id+')" class="btn btn-danger">Dislike</button>'+
                             '</div>'+
                             '</div>'+
